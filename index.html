@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js">
+      <link rel="stylesheet" href="error-icon.svg">
+      <link rel="stylesheet" href="success-icon.svg">
+
+    </script>
+    <title>Laboratorio</title>
+  </head>
+  <body>
+    <section class="form-register">
+      <h1>Create Account</h1>
+      Nombre
+      <p></p>
+      <input class="controls" type="text" name="nombre" id="nombres">
+         <i class="fas fa-check-circle"></i>
+         <i class="fas fa-exclamation-circle"></i>
+         <small>Error message</small>
+         <div class="error"></div>
+      <p></p>
+      Email
+      <p></p>
+      <input class="controls" type="email" name="email" id="correo">
+         <i class="fas fa-check-circle"></i>
+         <i class="fas fa-exclamation-circle"></i>
+         <small>Error message</small>
+      <div class="error"></div>
+      <p></p>
+      Clave
+      <p></p>
+      <input class="controls" type="password" name="clave" id="clave">
+         <i class="fas fa-check-circle"></i>
+         <i class="fas fa-exclamation-circle"></i>
+         <small>Error message</small>
+      <div class="error"></div>
+      <p></p>
+      Confirme su clave
+      <p></p>
+      <input class="controls" type="password" name="clave2" id="clave2">
+         <i class="fas fa-check-circle"></i>
+         <i class="fas fa-exclamation-circle"></i>
+         <small>Error message</small>
+      <div class="error"></div>
+      <p></p>
+      <input class="button" type="submit" value="ENVIAR" onclick="resultado()">
+
+    </section>
+  </body>
+</html>

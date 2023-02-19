@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #494062;
+
+}
+.form-register {
+  width: 400px;
+  background: #6F6785;
+  padding: 30px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  font-family: "verdana";
+  color: #D5CDEB;
+  border: 1px solid #8D79C3;
+
+
+}
+
+
+.form-register h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+
+.controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #8D79C3;
+    font-family: "verdana";
+    font-size: 18px;
+}
+
+.form-register p {
+  height: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form-register input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-register.success input {
+	border-color: #2ecc71;
+}
+
+.form-register.error input {
+	border-color: #e74c3c;
+}
+
+.form-register i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-register.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-register.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-register small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-register.error small {
+	visibility: visible;
+}
+
+.form-register .button {
+  width: 100%;
+  background: #8D79C3;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  font-family: 'verdana';
+
+}
